@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/mainContent.css">
+    <title>Seizbuki</title>
+</head>
+    <body>
+  <header>
+    <div class="logo-title" onclick="mainPageLoad()">
+        <img src="photos/seizbuki.png" alt="seizbuki">
+        <h1>Seizbuki</h1>
+    </div>
+        <nav class="menu">
+    <ul id="menu">
+        <li data-page="home">🏠</li>
+        <li data-page="profile">👤</li>
+        <li data-page="about">ℹ️</li>
+        <li data-page="messages">📨</li>
+        <li data-page="log-out">↩️</li>
+    </ul>
+  </nav>
+  </header>
+
+  
+
+    <main>
+      <section id="create-post">
+        <textarea id="post-text" placeholder="What's on your mind?"></textarea>
+        <button onclick="addPost()">Post</button>
+      </section>
+
+      <section id="feed">
+        <!-- posts will appear here -->
+         <div class="post">
+           <video >
+        <source src="videos/facebook.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>This is my video post!</p>
+         </div>
+      </section>
+    </main>
+  </div>
+<footer>
+    <div class="footer-content">
+    <p>© 2025 Seizbuki. All rights reserved.</p>
+    <nav>
+      <a href="https://www.youtube.com/watch?v=L5NW4gskY6U&ab_channel=GeorgeTer-Nersesov">Privacy Policy</a> | 
+      <a href="https://www.youtube.com/watch?v=L5NW4gskY6U&ab_channel=GeorgeTer-Nersesov">Terms of Service</a> | 
+      <a href="https://www.youtube.com/watch?v=L5NW4gskY6U&ab_channel=GeorgeTer-Nersesov">Contact</a>
+    </nav>
+  </div>
+</footer>
+  <script src="js/mainContent.js"></script>
+</body>
+</html>
